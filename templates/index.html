@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAcademy - Bienvenido</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f9; color: #333; padding: 50px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; }
+        video { width: 100%; border-radius: 10px; margin: 20px 0; }
+        .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px; }
+        .btn { padding: 10px 20px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+        .btn:hover { background: #2980b9; }
+        .footer { margin-top: 30px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a CodeAcademy</h1>
+        <p>Aprende programación con los mejores cursos.</p>
+        
+        <video controls autoplay muted>
+            <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_063509_7d167302-4fd4-480b-8260-18ab572333d4.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+
+        <div class="links">
+            <a href="/api/courses/" class="btn">Ver Cursos</a>
+            <a href="/api/categories/" class="btn">Categorías</a>
+            <a href="/api/lessons/" class="btn">Lecciones</a>
+            <a href="/api/enrollments/" class="btn">Mis Compras</a>
+        </div>
+
+        <div class="footer">
+            <p>Acceso rápido a la API para el deber de Sergio</p>
+        </div>
+    </div>
+</body>
+</html>
