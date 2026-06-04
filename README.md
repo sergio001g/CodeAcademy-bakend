@@ -48,3 +48,5 @@ Sigue estos pasos uno por uno:
 ## Archivos Importantes
 - **postman_collection.json**: Es un archivo que puedes meter en un programa llamado Postman para probar todos los botones de la aplicacion facilmente.
 - **requirements.txt**: Es una lista de las piezas que Python necesita para que todo funcione.
+
+-url : http://2.25.166.103/api/ o http://codeacademy-api.ddns.net/api/
